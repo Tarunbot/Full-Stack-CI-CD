@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "tarun-first-api",
-      "image": "tarunbot/tarun-first-api",
+      "image": "tarunbot/tarun-first-api:latest",
       "essential": true,
       "memory": 512,
       "portMappings": [
