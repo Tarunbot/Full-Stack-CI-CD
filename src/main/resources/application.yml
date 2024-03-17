@@ -1,0 +1,28 @@
+
+#to set the server port
+
+
+#default
+server:
+  port: 8080
+  error:
+    include-message: always
+
+
+#default application type
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5332/customer
+    username: root
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+  main:
+    web-application-type: servlet
