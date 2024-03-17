@@ -3,9 +3,9 @@ name : CI -BUILD
 on:
   pull_request:
     branches:
-      - main
+      - "main"
     paths:
-      - src/**
+      - backend/**
 
 jobs:
   build:
